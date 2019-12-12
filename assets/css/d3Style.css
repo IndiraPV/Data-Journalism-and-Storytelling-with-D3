@@ -6,7 +6,7 @@
 
 .active {
   font-weight: bold;
-  fill: #000;
+  fill: #89bdd3;
   transition: fill 0.3s ease-out;
   text-anchor: middle;
 }
@@ -19,7 +19,7 @@
 }
 
 .inactive:hover {
-  fill: #000;
+  fill: #89bdd3;
   cursor: pointer;
 }
 
@@ -50,6 +50,17 @@
   text-transform: capitalize;
   background: rgba(0, 0, 0, 0.8);
   border-radius: 4px;
+}
+.d3-tip:after {
+  box-sizing: border-box;
+  display: inline;
+  font-size: 10px;
+  /* width: 100%; */
+  line-height: 1;
+  color: rgba(0, 0, 0, 0.8);
+  content: "\25BC";
+  position: absolute;
+  text-align: center;
 }
 
 /* Mobile Rules */
