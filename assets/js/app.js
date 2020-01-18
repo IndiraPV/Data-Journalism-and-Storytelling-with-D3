@@ -155,10 +155,11 @@ yText
 
 // Import our CSV data with d3's .csv import method.
 // d3.csv("../../assets/data/data.csv").then(function(data) {
-  d3.csv("https://d3csvdata.s3.us-east-2.amazonaws.com/data.csv").then(function(data) {
+  // d3.csv("https://d3csvdata.s3.us-east-2.amazonaws.com/data.csv").then(function(data) {
   // Visualize the data
+  // console.log(data);
   visualize(data);
-});
+// });
 
 // 3. Create our visualization function
 // ====================================
